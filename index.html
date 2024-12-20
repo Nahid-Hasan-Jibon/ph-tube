@@ -11,10 +11,10 @@
 <body class="">
     <header>
         <nav class=" w-11/12 mx-auto py-2 flex justify-between border-b">
-            <div class="logo w-[100px]">
-                <img class="w-[100px]" src="assets/Logo.png" alt="">
+            <div class="logo ">
+                <img class="" src="assets/Logo.png" alt="">
             </div>
-            <div class="search-bar">
+            <div class="search-bar hidden md:block lg:block">
                 <label class="input input-bordered flex items-center gap-2">
                     <input type="text" class="grow" placeholder="Search" />
                     <svg
@@ -34,6 +34,9 @@
             </div>
         </nav>
 
+        <!-- categories -->
+         <nav id="categories" class="flex justify-center gap-4 py-8 mx-8"></nav>
+
     </header>
     <main>
 
@@ -42,5 +45,7 @@
         
     </footer>
     
+
+    <script src="js/script.js"></script>
 </body>
 </html>
